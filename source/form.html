@@ -50,51 +50,51 @@
           посещенных
           вами достопримечательностях</p>
       </div>
-      <form class="filter__container" action="https://echo.htmlacademy.ru/" method="post">
-        <fieldset class="filter__group filter__group--fullname">
-          <legend class="title filter__title">Представьтесь:</legend>
-          <label class="label__fullname" for="first-name">Имя*:</label>
-          <input class="input__fullname" type="text" id="first-name" name="first-name" placeholder="Имя" value="Петр"
+      <form class="filter-container" action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset class="filter filter-fullname">
+          <legend class="filter__title">Представьтесь:</legend>
+          <label class="filter__label-fullname" for="first-name">Имя*:</label>
+          <input class="filter__input-fullname" type="text" id="first-name" name="first-name" placeholder="Имя" value="Петр"
             required>
-          <label class="label__fullname" for="last-name">Фамилия*:</label>
-          <input class="input__fullname" type="text" id="last-name" name="last-name" placeholder="Имя" value="Пустота"
+          <label class="filter__label-fullname" for="last-name">Фамилия*:</label>
+          <input class="filter__input-fullname" type="text" id="last-name" name="last-name" placeholder="Имя" value="Пустота"
             required>
-          <label class="label__fullname" for="middle-name">Отчество:</label>
-          <input class="input__fullname" type="text" id="middle-name" name="middle-name" placeholder="Имя"
+          <label class="filter__label-fullname" for="middle-name">Отчество:</label>
+          <input class="filter__input-fullname" type="text" id="middle-name" name="middle-name" placeholder="Имя"
             value="Викторович">
         </fieldset>
-        <fieldset class="filter__group filter__group--contacts">
+        <fieldset class="filter filter-contacts">
           <legend class="title filter__title">Контактная информация:</legend>
-          <label class="label__contacts" for="phone">Контактный телефон*:</label>
-          <input class="input__contacns" type="tel" id="phone" name="phone" placeholder="Введите телефон" required>
+          <label class="filter__label-contacts" for="phone">Контактный телефон*:</label>
+          <input class="filter__input-contacns" type="tel" id="phone" name="phone" placeholder="Введите телефон" required>
           <span class="filter__icon filter__icon--email"></span>
-          <label class="label__contacts" for="email">Электронная почта*:</label>
-          <input class="input__contacns" type="email" id="email" name="email" placeholder="Введите e-mail" required>
+          <label class="filter__label-contacts" for="email">Электронная почта*:</label>
+          <input class="filter__input-contacns" type="email" id="email" name="email" placeholder="Введите e-mail" required>
           <span class="filter__icon filter__icon--phone"></span>
         </fieldset>
-        <fieldset class="filter__group filter__group--radio">
+        <fieldset class="filter filter-radio">
           <legend class="title filter__title">Ваше общее впечатление:</legend>
-          <label class="label__radio" for="positive">Скорее положительное</label>
-          <input class="input-radio" type="radio" id="positive" name="radio" checked>
-          <label class="label__radio" for="negative">Скорее отрицательное</label>
-          <input class="input-radio" type="radio" id="negative" name="radio">
-          <label class="label__radio" for="neutral">Затрудняюсь ответить</label>
-          <input class="input-radio" type="radio" id="neutral" name="radio">
+          <label class="filter__label-radio" for="positive">Скорее положительное</label>
+          <input class="filter__input-radio" type="radio" id="positive" name="radio" checked>
+          <label class="filter__label-radio" for="negative">Скорее отрицательное</label>
+          <input class="filter__input-radio" type="radio" id="negative" name="radio">
+          <label class="filter__label-radio" for="neutral">Затрудняюсь ответить</label>
+          <input class="filter__input-radio" type="radio" id="neutral" name="radio">
         </fieldset>
-        <fieldset class="filter__group filter__group--check">
+        <fieldset class="filter filter-check">
           <legend class="title filter__title">Посещенные достопримечательности:</legend>
-          <label class="label__checkbox" for="bridge">Мост Дьявола</label>
-          <input class="input__checkbox" type="checkbox" id="bridge" name="checkbox" checked>
-          <label class="label__checkbox" for="mountain">Гора-Колокол</label>
-          <input class="input__checkbox" type="checkbox" id="mountain" name="checkbox" checked>
-          <label class="label__checkbox" for="park">Слайд-парк</label>
-          <input class="input__checkbox" type="checkbox" id="park" name="checkbox" checked>
-          <label class="label__checkbox" for="rocks">Красные скалы</label>
-          <input class="input__checkbox" type="checkbox" id="rocks" name="checkbox">
+          <label class="filter__label-checkbox" for="bridge">Мост Дьявола</label>
+          <input class="filter__input-checkbox" type="checkbox" id="bridge" name="checkbox" checked>
+          <label class="filter__label-checkbox" for="mountain">Гора-Колокол</label>
+          <input class="filter__input-checkbox" type="checkbox" id="mountain" name="checkbox" checked>
+          <label class="filter__label-checkbox" for="park">Слайд-парк</label>
+          <input class="filter__input-checkbox" type="checkbox" id="park" name="checkbox" checked>
+          <label class="filter__label-checkbox" for="rocks">Красные скалы</label>
+          <input class="filter__input-checkbox" type="checkbox" id="rocks" name="checkbox">
         </fieldset>
-        <fieldset class="filter__group filter__group--feedback">
-          <label class="label__feedback" for="feedback">Опишите свои эмоции:</label>
-          <textarea class="input__feedback" id="feedback" name="feedback">Опишите подробно все свои восторги</textarea>
+        <fieldset class="filter filter-feedback">
+          <label class="filter__label-feedback" for="feedback">Опишите свои эмоции:</label>
+          <textarea class="filter__input-feedback" id="feedback" name="feedback">Опишите подробно все свои восторги</textarea>
         </fieldset>
         <button class="button form__button" type="submit" name="button">Отправить отзыв</button>
         <span class="form__required-fields">* — обязательные поля</span>
@@ -126,7 +126,7 @@
       <span class="visually-hidden">HTML Academy</span></a>
   </footer>
 
-  <div class="modal__container modal__container--close">
+  <div class="modal-container modal-container-close">
     <div class="modal modal--error">
       <h2 class="title modal__title">Что-то пошло не так!</h2>
       <p class="description modal__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
