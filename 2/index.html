@@ -11,7 +11,7 @@
 
 <body class="page__body">
 
-  <header class="page-header">
+  <header class="main-header">
     <a class="main-header__logo">
       <img src="img/header/logo.svg" alt="Логотип сайта Седона" width="185" height="96">
     </a>
@@ -21,16 +21,16 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="list__item list__item--current">
+          <li class="main-nav__list-item main-nav__list-item--current">
             <a>Главная</a>
           </li>
-          <li class="list__item">
+          <li class="main-nav__list-item">
             <a href="catalog.html">Фото и видео</a>
           </li>
-          <li class="list__item">
+          <li class="main-nav__list-item">
             <a href="form.html">Форма отзыва</a>
           </li>
-          <li class="list__item">
+          <li class="main-nav__list-item">
             <a href="#">HTML Academy</a>
           </li>
         </ul>
@@ -41,40 +41,50 @@
   <main class="main-container">
     <section class="hero">
       <h1 class="visually-hidden">Седона - городок в Аризоне</h1>
-      <img class="hero-img" src="" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+      <img class="hero-img" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
     </section>
     <section class="advantages">
       <div class="advantages__wrapper">
         <div class="advantages__heading">
           <h2 class="visually-hidden">Преимущества</h2>
-          <h3 class="title advantages__title--slogan">Седона — небольшой городок в Аризоне, заслуживающий большего!</h3>
-          <p class="description advantages__description--intro">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+          <h3 class="title advantages__title advantages__title--slogan">Седона — небольшой городок в Аризоне,
+            заслуживающий большего!</h3>
+          <p class="description advantages__description advantages__description--intro">Рассмотрим причины, по которым
+            Седона круче, чем Гранд-Каньон!</p>
         </div>
-        <ul class="advantages__list">
+        <ol class="advantages__list">
           <li class="advantages__item advantages__item--wide">
             <h3 class="title advantages__title">Настоящий городок</h3>
             <p class="description advantages__description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="advantages-img" src="" alt="Дома на фоне гор">
+            <a href="">
+              <img class="advantages-img" src="#" alt="Дома на фоне гор">
+            </a>
           </li>
-          <li class="advantages__item advantages__item--services">
-            <h3 class="title advantages__title advantages__title--services">Жильё</h3>
-            <p class="description advantages__description advantages__description---services">Рекомендуем пожить в настоящем мотеле,
-              всё как в кино!</p>
-          </li>
-          <li class="advantages__item advantages__item--services">
-            <h3 class="title advantages__title advantages__title--services">Еда</h3>
-            <p class="description advantages__description advantages__description--services">Всегда заказывайте фирменный бургер, вы
-              не разочаруетесь!</p>
-          </li>
-          <li class="advantages__item advantages__item--services">
-            <h3 class="title advantages__title advantages__title--services">Сувениры</h3>
-            <p class="description advantages__description advantages__description--services">Не только китайского, но и местного
-              производства!</p>
+          <li class="advantages__item">
+            <ul class="advantages__list advantages__list--services">
+              <li class="advantages__item advantages__item--services">
+                <h3 class="title advantages__title advantages__title--services">Жильё</h3>
+                <p class="description advantages__description advantages__description---services">Рекомендуем пожить в
+                  настоящем мотеле, всё как в кино!</p>
+              </li>
+              <li class="advantages__item advantages__item--services">
+                <h3 class="title advantages__title advantages__title--services">Еда</h3>
+                <p class="description advantages__description advantages__description--services">Всегда заказывайте
+                  фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="advantages__item advantages__item--services">
+                <h3 class="title advantages__title advantages__title--services">Сувениры</h3>
+                <p class="description advantages__description advantages__description--services">Не только китайского,
+                  но и местного производства!</p>
+              </li>
+            </ul>
           </li>
           <li class="advantages__item advantages__item--wide">
             <h3 class="title advantages__title">Там есть мост дьявола</h3>
             <p class="description advantages__description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="advantages-img" src="" alt="Каньон и горы">
+            <a href="">
+              <img class="advantages-img" src="#" alt="Каньон и горы">
+            </a>
           </li>
           <li class="advantages__item">
             <h3 class="title advantages__title">Небольшая площадь</h3>
@@ -88,42 +98,42 @@
             <h3 class="title advantages__title">Мало туристов</h3>
             <p class="description advantages__description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-        </ul>
+        </ol>
         <div class="advantages__search">
           <h2 class="visually-hidden">Поиск гостиницы</h2>
-          <h3 class="title advantages__title--search">Заинтересовались?</h3>
-          <p class="description advantages__description--search">Укажите предполагаемые даты поездки, и мы покажем вам лучшие
+          <h3 class="title title--search">Заинтересовались?</h3>
+          <p class="description description--search">Укажите предполагаемые даты поездки, и мы покажем вам лучшие
             предложения гостиниц в Седоне</p>
-          <a class="button advantages__button--search" href="catalog.html">Найти гостиницу</a>
+          <a class="button button--search" href="catalog.html">Найти гостиницу</a>
         </div>
       </div>
     </section>
     <section class="maps">
       <h2 class="visually-hidden">Карта Седоны</h2>
-      <iframe src="" frameborder="0"></iframe>
+      <iframe></iframe>
     </section>
   </main>
 
-  <footer class="page__footer">
-    <p class="footer__hashtag">#visitSEDONA</p>
-    <ul class="footer__social-list">
-      <li class="footer__social-item">
-        <a class="footer__social-link" href="https://vk.com/htmlacademy">
+  <footer class="main-footer">
+    <p class="footer-hashtag">#visitSEDONA</p>
+    <ul class="main-footer__social-list">
+      <li class="main-footer__social-item">
+        <a class="main-footer__social-link" href="https://vk.com/htmlacademy">
           <span class="visually-hidden">Vkontakte</span>
         </a>
       </li>
-      <li class="footer__social-item">
-        <a class="footer__social-link" href="https://t.me/htmlacademy">
+      <li class="main-footer__social-item">
+        <a class="main-footer__social-link" href="https://t.me/htmlacademy">
           <span class="visually-hidden">Telegram</span>
         </a>
       </li>
-      <li class="footer__social-item">
-        <a class="footer__social-link" href="https://www.youtube.com/user/htmlacademyru">
+      <li class="main-footer__social-item">
+        <a class="main-footer__social-link" href="https://www.youtube.com/user/htmlacademyru">
           <span class="visually-hidden">Youtube</span>
         </a>
       </li>
     </ul>
-    <p class="description copyright__description">Разработано</p>
+    <p class="description copyright-description">Разработано</p>
     <a class="copyright" href="https://htmlacademy.ru/intensive/adaptive">
       <span class="visually-hidden">HTML Academy</span></a>
   </footer>
